@@ -23,4 +23,16 @@ def square(h):
 result=square(11)
 print(" square is "+str(result))
 
+# perimeter
+
+# Triange area
+#
+#for loop
+
+#ifelse
+
+def perimeter (l,w):
+    return 2*(l+w)
+result=perimeter(7,8)
+print("perimeter"+str(result))
 
