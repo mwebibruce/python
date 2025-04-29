@@ -9,3 +9,9 @@ def add(a,b):
 
 ans=add(20,1)
 print(" result "+str(ans))
+# Multiply numbers
+def multipy(x,y):
+    return x*y
+result=multipy(x,y)
+print(result)
+
