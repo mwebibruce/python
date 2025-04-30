@@ -38,4 +38,8 @@ print("perimeter"+str(result))
 # Re installed.
 #triangle area
 
-
+def trianglearea (base,height):
+    result=0.5*height
+    return(result)
+area = trianglearea
+print (area)
