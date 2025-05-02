@@ -18,6 +18,16 @@ class Calculator:
 def square(h):
      return h*h
 
+def fileopener(self,filename ):
+   f=open (filename)
+   print (f.read())
+
+
+
+
+
 calc1=Calculator()
 print(calc1.trianglearea(4,4))
 print(calc1.perimeter(10,21))
+
+calc1.fileopener('results.csv')
