@@ -17,15 +17,14 @@ class Calculator:
 
 
 # square
-  def square(self,h):
-    return h*h
-  def fileopener(self,filename ):
-    f=open (filename)
-    print (f.read())
-    
- 
-  def pandasfileapp(self, filename):
-    pass  
+def square(h):
+     return h*h
+
+def fileopener(self,filename ):
+   f=open (filename)
+   print (f.read())
+
+
 
     
     #pd.read_csv(filename)
@@ -38,4 +37,3 @@ print(calc1.square(10))
 
 
 calc1.fileopener('results.csv')
-calc1.pandasfileapp('results.csv')
