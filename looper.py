@@ -39,4 +39,3 @@ for row in rows[:5]:
         else:
             print("%10s" % col, end=" "),
     print('\n')
-    hasattr
