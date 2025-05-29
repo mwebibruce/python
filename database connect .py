@@ -17,7 +17,7 @@ mycursor = mydb.cursor()
 
 
   
-mycursor.execute("SELECT staff.id, staff.fullnames, dutyroster.Shift_number FROM staff INNER JOIN dutyroster ON staff.id=dutyroster.id;")
+mycursor.execute("SELECT * FROM staff WHERE fullnames LIKE 'a%';")
 
 myresult = mycursor.fetchall()
 
