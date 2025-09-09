@@ -1,0 +1,15 @@
+ public interface IMyService
+    {
+        void DoSomething();
+    }
+     public class MyService : IMyService
+    {
+        public void DoSomething()
+        {
+            // Service logic goes here
+            Console.WriteLine("MyService is doing something!");
+        }
+    }
+     // In your Program.cs or Startup.cs
+    builder.Services.AddSingleton<IMyService, MyService>();
+    StartUserRegistration
