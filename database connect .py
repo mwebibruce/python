@@ -17,10 +17,14 @@ mycursor = mydb.cursor()
 
 
   
-mycursor.execute("SELECT * FROM staff WHERE fullnames LIKE 'a%';")
+#mycursor.execute("SELECT * FROM staff WHERE fullnames LIKE 'a%';")
+mycursor.execute(" SELECT staff.id, staff.fullnames, dutyroster.Shift_number FROM staff INNER JOIN dutyroster ON staff.id=dutyroster.id")
 
 myresult = mycursor.fetchall()
+#row = mycursor.fetchone()
+#print (row[0], "-->", row[1])
+
+#for x in row:
 
 for x in myresult:
   print(x)
-
